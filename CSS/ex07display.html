@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    div, span{
+        width: 100px;
+        height: 100px;
+        margin: 100px;
+    }
+
+    div{
+        background-color: red;
+        display: none;
+    }
+    /*디스플레이가 인라인일땐 한줄에 표현되고 컨텐프 크기가 요소의 크기가 된다*/
+  
+    /*디스플레이가 블락일땐 요소하나가 한줄의 영역을 차지하고 컨텐츠 크기에 상관없이
+    width외 height의 크기를 반영한다.*/
+    span{
+        background-color: green;
+        display: inline-block;
+    }
+</style>
+
+</head>
+<body>
+    <div></div>
+    <div></div>
+    <div></div>
+    
+    <span>1</span>
+    <span>2</span>
+    <span>3</span>
+
+</body>
+</html>
